@@ -1,0 +1,17 @@
+h1. Training Wheels
+
+Welcome to the wonderful world of Training Wheels.
+
+h2. About
+
+Training Wheels is intended to be a portable, extensible way to share techniques, idioms, patterns, anti-patterns in Ruby
+
+It relies on ParseTree to turn your ruby code into data that can be analyzed and matched against patterns included in files called wheels.
+If a pattern matches, you get a suggestion for a better way to accomplish the same task.
+
+h2. Get Started
+
+# Clone it from "GitHub":http://github.com/capitalist/training_wheels
+# It's not setup as a gem yet (it needs work to be beta ready) so just run: ./bin/training_wheels to play around.
+
+

@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby -w
+require 'lib/training_wheels'
 
 file_patterns_to_parse = (ARGV.length > 0 ? ARGV : ['**/*.rb'])
 files = {}
@@ -8,4 +9,7 @@ file_patterns_to_parse.each do |arg|
   }
 end
 
-puts "Parsing #{files.keys.join(', ')} [#{files.keys.length}]\n\n"
+puts "Parsing #{files.keys.join(', ')} [#{files.keys.length}]"
+
+tw = TrainingWheels::Processor.new(files.keys)
+tw.spin_wheels
