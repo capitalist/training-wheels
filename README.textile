@@ -11,7 +11,7 @@ If a pattern matches, you get a suggestion for a better way to accomplish the sa
 
 h2. Get Started
 
-# Clone it from "GitHub":http://github.com/capitalist/training_wheels
+# Clone it from "GitHub":http://github.com/capitalist/training-wheels
 # It's not setup as a gem yet (it needs work to be beta ready) so just run: ./bin/training_wheels to play around.
 
 
