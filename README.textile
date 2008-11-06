@@ -14,4 +14,8 @@ h2. Get Started
 # Clone it from "GitHub":http://github.com/capitalist/training-wheels
 # It's not setup as a gem yet (it needs work to be beta ready) so just run: ./bin/training_wheels to play around.
 
+h3. Feature Ideas
 
+- Literals: Need to be able to work with literals to create wheels that watch for literal values.
+- Wildcards: Need an idea for a pretty way to specify wildcards in trigger patterns.
+- Suggest Interpolation: Need a way to take values, method names, etc. from the code that triggered a suggestion and use them in the suggestion. Then we could have copy/paste suggestions.
