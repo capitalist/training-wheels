@@ -14,6 +14,11 @@ h2. Get Started
 # Clone it from "GitHub":http://github.com/capitalist/training-wheels
 # It's not setup as a gem yet (it needs work to be beta ready) so just run: ./bin/training_wheels to play around.
 
+h2. Get Involved
+
+* Join the "mailing list":http://groups.google.com/group/training_wheels and let me know your ideas
+* Fork the repository on "GitHub":http://github.com/capitalist/training-wheels, modify it, and then send me a pull request
+
 h3. Feature Ideas
 
 * Literals: Need to be able to work with literals to create wheels that watch for literal values.
